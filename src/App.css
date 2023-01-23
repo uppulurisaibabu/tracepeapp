@@ -1,5 +1,8 @@
+@import 'antd/dist/antd.css';
 .App {
   text-align: center;
+  
+  
 }
 
 .App-logo {
@@ -35,4 +38,277 @@
   to {
     transform: rotate(360deg);
   }
+}
+.heading{
+  margin-top: 30px;
+  font-weight: lighter;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.image-name{
+  float: left;
+}
+.login-form {
+  max-width: 1000px;
+  float: right;
+  margin-right: 230px;
+  
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-forgot {
+  float: right;
+  margin-top: 0px;
+}
+.login-form-button {
+  margin: top 0px;
+  width: 100%;
+  height: 8vh;
+  margin-bottom: 10px;
+}
+.register{
+  float: right;
+ 
+}
+.user-name{
+  margin-top: 10px;
+}
+.overall{
+  width: 60%;
+  text-align: center;
+}
+.signup{
+  padding-top: 20px;
+ margin-bottom: 30px; 
+ padding-right: 190px;
+  color: blue;
+}
+.site-card-border-less-wrapper {
+  padding: 30px;
+  background: #ececec;
+}
+.tracepe{
+  font-size: large;
+  color: black;
+  background-color:#f4f4f4;
+}
+.site-page-header {
+  border: 0px solid rgb(235, 237, 240);
+  margin: 10px;
+}
+.straight{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.search{
+  float: right;
+  margin-left: 680px;
+  width: 280px;
+}
+.home-button{
+  margin-right: 100px;
+  margin-left: 80px;
+  width:140px;
+  background-color: lightskyblue;
+  height:auto
+}
+.home-straight{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.back-ground{
+  background-color: whitesmoke;
+}
+.netflix{
+  padding-top: 20px;
+  padding-left: 20px;
+float: left;
+height: min-content;
+width: 60px;
+}
+.netflix2{
+  margin-left: 160px;
+  height: min-content;
+  width: 70px;
+  float: right;
+  
+
+}
+.card-image{
+  margin-left: 30px;
+  background-color:#f4f4f4;
+  width: 30px;
+  height: 100px;
+}
+.overall-cards{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.my-sub{
+  padding-left: 30px;
+  padding-bottom: 10px;
+  font-size: medium;
+}
+.add-head{
+  font-size: larger;
+  text-align: center;
+}
+.addsub-straight{
+  display: flex;
+  flex-direction: row;
+  max-width: max-content;
+}
+.name-sub{
+ 
+  width: 360px;
+  padding-left: 40px;
+  padding-right: 10px;
+}
+.name-sub1{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  width: 350px;
+  
+  padding-right: 10px;
+}
+.dateSub{
+  display: flex;
+  flex-direction: column;
+}
+.name-sub2{
+  
+  margin-left: 0%;
+  width: 350px;
+  
+  padding-right: 10px;
+}
+.name-sub3{
+  margin-bottom: 550px;
+  width: 360px;
+  padding-left: 40px;
+  padding-right: 10px;
+}
+.addsub-straight1{
+  
+  display: flex;
+  flex-direction: row;
+  max-width: max-content;
+  
+}
+.remainder{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  width:100px
+}
+.remainder1{
+  padding-left: 140px;
+}
+.button-direct{
+  display: flex;
+  flex-direction: row;
+}
+.final-button{
+  width:max-content;
+  display: flex;
+  flex-direction: row;
+  float: right;
+  padding-top: 100px;
+ 
+}
+.individual-button{
+  margin-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 20px;
+  background-color: #808080;
+border-radius: 5px;  
+}
+.reset{
+  padding-right: 30px;
+  margin-bottom: 290px;
+  margin-left: 140px;
+  margin-left: 10px;
+  padding-left: 10px;
+  background-color: #f4f4f4;
+  border-radius: 5px; 
+}
+.add-modal{
+ height: 50px; 
+ width: 100%;;
+}
+.pr-1{
+  padding-right: 0.5em;
+}
+.text-right{
+  text-align: right;
+}
+/* .ant-modal-body {
+  height: 300px;
+} */
+.add-sub{
+  border-radius: -20px;
+}
+.ant-modal-content {
+  border-radius: 10px;
+}
+.ant-carousel .slick-dots li.slick-active button {
+  
+  opacity: 1;
+  background-color: #717171;
+}
+.ant-carousel .slick-dots li button {
+  /* display: inline-block; */
+  /* width: 100%; */
+  /* height: 3px; */
+  /* padding: 0; */
+  color: transparent;
+  /* font-size: 0; */
+  background: #fff;
+  /* border: 0; */
+  border-radius: 1px;
+  /* outline: none; */
+  /* cursor: pointer; */
+  /* opacity: 0.3; */
+  /* transition: all 0.5s; */
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  align-items: center;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.slideractive, .dot:hover {
+  background-color: #717171;
+}
+.ant-carousel .slick-dots li {
+  text-align: right;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+.header{
+  margin-left: 20px;
+  margin-right: 12px;
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.header1{
+   text-decoration: underline; 
+}
+.bi{
+  
+  float:right;
 }
